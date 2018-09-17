@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>hua</title>
+	<link rel="shortcut icon" href="../img/favicon.ico">
+	<link rel="stylesheet" href="../layui/css/layui.css">
+	<link rel="stylesheet" href="../css/painting.css">
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../layui/css/layui.css">
+    <link rel="stylesheet" href="../font-awesome-4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	<div align="center">
+	    <canvas id="myCanvas" width="300" height="400"></canvas>
+	    <div class="control-ops">
+		    画笔粗细 : <select id="selWidth">
+		        <option value="1">1</option>
+		        <option value="3">3</option>
+		        <option value="5" selected="selected">5</option>
+		        <option value="7">7</option>
+		        <option value="9">9</option>
+		        <option value="11">11</option>
+		    </select>
+		    画笔颜色 : <select id="selColor">
+		        <option value="black">black</option>
+		        <option value="blue" selected="selected">blue</option>
+		        <option value="red">red</option>
+		        <option value="green">green</option>
+		        <option value="yellow">yellow</option>
+		        <option value="gray">gray</option>
+		        <option value="pink">pink</option>
+		        <option value="white">white</option>
+		    </select>
+		    <br/>
+		    <button type="button" class="btn btn-primary" onclick="javascript:clearArea();return false;">清空画板</button>
+		    <button type="button" class="tapClip">橡皮擦</button>
+		    <button type="button" class="upload">发布</button>
+	    </div>
+	</div>
+</body>
+<script src="../js/jquery-3.2.1.js"></script>
+<script src="../layui/layui.all.js"></script>
+<script src="../js/adaption.js"></script>
+<script src="../js/painting.js"></script>
+
+</html>

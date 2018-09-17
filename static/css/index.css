@@ -1,0 +1,182 @@
+/* 基数为10 */
+@media only screen and (min-width: 320px){html {font-size: 62.5% !important;}}
+@media only screen and (min-width: 640px){html {font-size: 125% !important;}}
+@media only screen and (min-width: 750px){html {font-size: 150% !important;}}
+@media only screen and (min-width: 1242px){html {font-size: 187.5% !important;}}
+body{
+    font-size: 1.4rem;
+}
+
+/*头部*/
+.header{
+    width: 100%;
+    height: 5rem;
+    padding: 1rem 1.5rem;
+    border-bottom: 1px solid #eee;
+    background-color: #1E9FFF;
+    box-shadow:  0 0.05rem #fff;
+    position: relative;
+    z-index: 1;
+}
+#user{
+    width: 3rem;
+    line-height: 3rem;
+}
+#user i{
+    font-size: 1rem;
+}
+.options li{
+    float: right;
+    margin: 0.4rem 0;
+}
+.options li:not(:last-child){
+    margin-left: 1.4rem;
+}
+
+.searchModular{
+    width: 100%;
+    line-height: 5rem;
+    background-color: #eee;
+    transition: all 1 ease 0;
+    padding: 0 1.5rem;
+    position: absolute;
+    top: 0;
+}
+.searchModular .searchText,.searchModular .searchBtn{
+    line-height: 4rem;
+    border-radius: 1rem;
+}
+.searchModular .searchText{
+    width: 75%;
+    margin-right: 1rem;
+    text-align: center;
+}
+.searchModular .searchBtn{
+    width: 20%;
+}
+
+
+/*登录模块*/
+.login{
+    width: 80%;
+    height: 80%;
+    padding: 8rem 3rem;
+    background-color: #eee;
+    visibility: hidden;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    z-index: 2;
+    text-align: center;
+}
+.login>div:not(:last-child){
+    margin: 1rem 0;
+}
+.login input{
+    line-height: 3rem;
+}
+.login input:not(:last-child){
+    border-radius: 1rem;
+    width: 70%;
+}
+.login button{
+    width: 6rem;
+    height: 3rem;
+    border-radius: 1rem;
+}
+.login i{
+    font-size: 2rem;
+    position: relative;
+    top: 0.5rem;
+    visibility: hidden;
+}
+.login .close{
+    font-size: 2rem;
+    display: block;
+    border: 0.1rem solid #ddd;
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem;
+}
+
+.shadow{
+    width: 100%;
+    height: 100%;
+    background-color: #ddd;
+    visibility: hidden;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    z-index: 1;
+}
+
+.banner{
+    height: 12rem;
+    padding: 0.8rem 0;
+}
+.banner img{
+    width: 100%;
+    height: 100%;
+}
+
+.select{
+    min-height: 35rem;
+    display: flex;
+    justify-content:space-between;
+    padding-top: 0.5rem;
+    border-top: 0.1rem solid #eee;
+    margin-bottom: 10rem;
+}
+.select ul{
+    width: 11rem;
+    height: auto;
+}
+.select ul li{
+    background-color: #fff;
+    box-shadow: 0.2rem 0.2rem 0.4rem #888888;
+}
+.select .infor{
+    background-color: #98F5FF;
+    font-size: 1rem;
+    padding: 0.2rem 1rem 0 0.5rem;
+    line-height: 1rem;
+}
+.select .infor .hot{
+    float: right;
+    font-size: 0.6rem;
+}
+.select .infor i{
+    float: right;
+    margin-right: 0.2rem;
+}
+.select ul li:not(:last-child){
+    margin-bottom: 1rem;
+}
+
+.footer{
+    width: 100%;
+    height: 5rem;
+    background-color: #1E9FFF;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    z-index: 1;
+}
+.footer>div{
+    width: 4rem;
+    padding: 0.5rem 0;
+}
+.footer>div i,.footer>div span{
+    display: block;
+}
+.footer .active{
+    color: yellow;
+}

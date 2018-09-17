@@ -1,0 +1,37 @@
+.body{
+	font-size: 1.4rem;
+}
+.box{
+	background-color: #eee;
+}
+.header{
+	width: 10rem;
+	font-size: 0.5rem;
+	line-height: 1.2rem;
+	background-color: black;
+	color: #fff;
+	text-align: center;
+	padding: 0 0.15rem;
+}
+.header i{
+	font-size: 0.5rem;
+}
+.register_item{
+	width: 10rem;
+	font-size: 0.5rem;
+	padding: 0 0.15rem;
+}
+.register_item li{
+	font-size: 0.4rem;
+	line-height: 1.2rem;
+	margin: 0.2rem 0;
+	background-color: #fff;
+	border-radius: 0.15rem;
+}
+.register_item .register_in{
+	text-align: center;
+	background-color: #FF2D2D;
+}
+.title{
+	line-height: 2rem!important;
+}

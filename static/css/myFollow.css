@@ -1,0 +1,16 @@
+.myFollowAuthors li{
+	position: relative;
+}
+.myFollowAuthors .author{
+	display: inline-block;
+	width: 70%;
+	background-color: #fff;
+}
+.myFollowAuthors .follow{
+	position: absolute;
+	width: 2rem;
+	height: 1rem;
+	right: 0.3rem;
+	top: 0.1rem;
+	font-size: 0.4rem;
+}

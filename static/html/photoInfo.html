@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>作品详情</title>
+    <link rel="shortcut icon" href="../img/favicon.ico">
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../layui/css/layui.css">
+    <link rel="stylesheet" href="../font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/photoInfo.css">
+</head>
+<body>
+	<!-- 头部 -->
+    <div class="header layui-anim" isLogin="false">
+        <div id="user" class="fl">
+            <i class="fa fa-user fa-3x fl" aria-hidden="true"></i>
+        </div>
+        <div class="options fr clearfix">
+            <ul class="clearfix">
+                <li><i class="fa fa-plus-square-o fa-2x" aria-hidden="true" id="add_works" name="add_works"></i></li>
+                <li><i class="fa fa-paint-brush fa-2x" aria-hidden="true" id="painting"></i></li>
+            </ul>
+        </div>
+    </div>
+    
+    <!-- 登录模块 -->
+    <div class="login layui-anim" isShow="false">
+        <div class="account">
+            <span>账号</span>
+            <input type="text" placeholder="" id="userId"/>
+            <i class="layui-icon judgeId">&#x1007;</i> 
+        </div>
+        <div class="pwd">
+            <span>密码</span>
+            <input type="password" id="password"/>
+            <i class="layui-icon judgePwd">&#x1007;</i> 
+        </div>
+        <div class="remenberPwd">
+            <span>记住密码</span>
+            <input type="checkbox" id="remenberPwd"/>
+        </div>
+        <div class="loginIn">
+            <button class="layui-btn layui-btn-lg" id="login">登录</button>
+            <button class="layui-btn layui-btn-normal layui-btn-lg" id="reset">重置</button>
+            <button class="layui-btn layui-btn-warm layui-btn-lg" id="register">注册</button>
+        </div>
+        <i class="layui-icon close">&#x1006;</i> 
+    </div>
+
+    <!-- 遮罩层 -->
+    <div class="shadow"></div>
+
+	<div class="box">  <!-- 图片详情 -->
+		<div class="paint">
+			<img src="" alt=""/>
+		</div>
+		<ul class="info">
+            <li class="author">
+                <div class="userInfo">
+                    <span class="username"></span>
+                    <span class="followNum"></span>
+                </div>
+                <button class="layui-btn layui-btn-radius follow">关注</button>
+            </li>
+			<li class="title"></li>
+            <li class="iconInfo">
+                <div class="agree"><i class="layui-icon">&#xe6c6;</i><span></span></div>
+                <div class="opposition"><i class="layui-icon">&#xe6c5;</i> <span></span></div>
+                <div class="collectionIcon"><i class="layui-icon">&#xe658;</i> <span></span></div>
+                <div class="hot"><i class="layui-icon">&#xe756;</i><span></span></div>
+            </li>
+            <li class="commetHead"><span class="commetTitle">留言</span><input type="text" class="rebackAuthorText" placeholder="说点儿什么..."/><span class="rebackAuthor">回复</span></li>
+            <li class="commetArea">
+                <div class="noCommet">当前暂无评论</div>
+            </li>
+		</ul>
+        
+
+	</div>
+
+	<!-- 尾部 -->
+    <div class="footer">
+        <div class="home active">
+            <i class="fa fa-home fa-2x" aria-hidden="true"></i>
+            <span>首页</span>
+        </div>
+        <div class="collection">
+            <i class="fa fa-star fa-2x" aria-hidden="true"></i>
+            <span>收藏</span>
+        </div>
+        <div class="dynamic">
+            <i class="fa fa-commenting fa-2x" aria-hidden="true"></i>
+            <span>动态</span>
+        </div>
+    </div>
+</body>
+
+<script src="../js/jquery-3.2.1.js"></script>
+<script src="../layui/layui.all.js"></script>
+<script src="../js/adaption.js"></script>
+<script src="../js/index.js"></script>
+<script src="../js/photoInfo.js"></script>
+</html>

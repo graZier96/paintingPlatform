@@ -1,0 +1,46 @@
+.myPaint{
+	text-align: center;
+	display: flex;
+	flex-wrap : wrap;
+	justify-content: space-around;
+}
+
+.myPaint>div{
+	width: 45%;
+	position: relative;
+	border: 0.1rem solid #eee;
+}
+.noPaint{
+	display: none;
+}
+.infor{
+	width: 100%;
+    background-color: #98F5FF;
+    font-size: 0.5rem;
+    padding: 0.2rem 0.2rem 0 0.2rem;
+    line-height: 1rem;
+    position: absolute;
+    bottom: 0;
+}
+.infor span{
+	float: left;
+}
+.infor .hot{
+    float: right;
+    font-size: 0.5rem;
+}
+.infor i{
+    float: right;
+    margin-right: 0.2rem;
+}
+.myPaint>div{
+    margin-bottom: 0.5rem;
+}
+#showMore{
+	display: none;
+	background-color: #708090;
+}
+.myFollow,.myFans{
+	text-align: center;
+	background-color: #708090!important;
+}

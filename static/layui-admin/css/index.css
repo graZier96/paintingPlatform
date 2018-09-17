@@ -1,0 +1,54 @@
+.header{
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+.login{
+	text-align: center;
+	box-sizing: border-box;
+	padding: 15%;
+	visibility: hidden;
+}
+.login>div{
+	margin-bottom: 10px;
+}
+.login input{
+	width: 200px;
+}
+.paintContent{
+	visibility: hidden;
+}
+.paintContent button:hover{
+	cursor: pointer;
+}
+.loginOut{
+	position: absolute;
+	top: 10px;
+	right: 100px;
+	color : #fff;
+	width: 80px;
+	line-height: 40px;
+	text-align: center;
+	border: 1px solid #fff;
+	border-radius: 10px;
+}
+.loginOut:hover{
+	cursor: pointer;
+}
+#layer-photos{
+	visibility: hidden;
+}
+.searchContent{
+	position: relative;
+	top: 5px;
+}
+.search{
+	color : #fff!important;
+}
+.serach:hover{
+	cursor: pointer;
+}
+.photo{
+	width: 500px;
+	height: 500px;
+}
