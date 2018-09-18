@@ -1,4 +1,4 @@
-# paintingPlatform
+# Painting Platform
 我的毕业设计，一个简易绘画平台。
 ## 它是什么？
 
